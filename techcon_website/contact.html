@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Get in Touch with TechCon 2024</h2>
+      <p>If you have any questions or need more information, feel free to contact us through any of the methods below:</p>
+      <h3>Email Us</h3>
+      <p>For inquiries, please email us at:
+        <a href="mailto:info@techcon2024.com">info@techcon2024.com</a>
+      </p>
+      <h3>Follow Us on Social Media</h3>
+      <ul>
+        <li><a href="https://www.facebook.com/TechCon2024" target="_blank">Facebook</a></li>
+        <li><a href="https://twitter.com/TechCon2024" target="_blank">Twitter</a></li>
+        <li><a href="https://www.instagram.com/TechCon2024" target="_blank">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/company/techcon2024" target="_blank">LinkedIn</a></li>
+      </ul>
+      <h3>Conference Venue Location</h3>
+      <p>Find us at the following location:</p>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.761318115573!2d-122.0810846846813!3d37.42207677982405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7db9ed0c56d%3A0x4f013bd0b2020c24!2sGoogleplex!5e0!3m2!1sen!2sus!4v1637635997984!5m2!1sen!2sus"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <h3>Send Us a Message</h3>
+      <p>If you prefer, you can fill out the form below to get in touch with us:</p>
+      <form action="submit_message.php" method="POST"></form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your name" aria-required="true">
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email" aria-required="true">
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="5" required placeholder="Write your message here"
+        aria-required="true"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
+  </footer>
+</body>
+</html>
